@@ -1,0 +1,16 @@
+{
+  "name": "playwright-ts7-starter-pack",
+  "version": "1.0.0",
+  "description": "INTENTIONALLY BROKEN exercise repo for the SF Certified TypeScript 7 for Playwright course. Push it, watch CI fail, and fix it step by step. Compare with the working reference repo (playwright-ts7-starter) when stuck.",
+  "private": true,
+  "scripts": {
+    "pretest": "tsc -p tests/tsconfig.json --noEmit",
+    "test": "playwright test",
+    "typecheck": "tsc -p tests/tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^22.0.0",
+    "@typescript/native-preview": "latest"
+  }
+}
